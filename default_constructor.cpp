@@ -15,7 +15,7 @@
 //         cout << "your Complex number is " << a << " + " << b << "i" << endl;
 //     }
 // };
-// Complex ::Complex(int x , int y ) //define // This is a default constructo as it Accepts 2  parameter
+// Complex :: Complex(int x , int y ) //define // This is a default constructo as it Accepts 2  parameter
 // {
 //     a = x;
 //     b = y;

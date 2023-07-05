@@ -14,10 +14,12 @@ protected:
     float num2;
 
 public:
-    void getnumber(float a, float b)
+    void getnumber()
     {
-        num1 = a;
-        num2 = b;
+     cout<<"Enter the value of a "<<endl ;
+     cin>>num1;
+     cout<<"Enter the value of b "<<endl ;
+         cin>>num2;
     }
 
     void add()
@@ -86,7 +88,7 @@ public:
 int main()
 {
     Hybrid rishabh;
-    rishabh.getnumber(4, 10);
+    rishabh.getnumber();
     rishabh.display();
 
     return 0;
