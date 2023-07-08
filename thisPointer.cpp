@@ -24,9 +24,9 @@ public:
 
 int main()
 {
-    A a;
+    A b;
     // a.setData(5).getData();
-    a.setData(5);
-    a.getData();
+    b.setData(5);
+    b.getData();
     return 0;
 }
