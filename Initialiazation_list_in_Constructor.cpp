@@ -25,7 +25,7 @@ class Text
      // Text(int i , int j) : a(i) , b(i+j)
      // Text(int i , int j) : a(i) , b(2*j)
      // Text(int i , int j) : a(i) , b(a+j)
-     // Text(int i , int j) : b(j) , a(b+ i) --> REDV FLAG  this will create problem because a will initialized first
+     // Text(int i , int j) : b(j) , a(b+ i) --> RED FLAG  this will create problem because a will initialized first
  Text(int i , int j) : b(j) , a(b+i)
 
 
